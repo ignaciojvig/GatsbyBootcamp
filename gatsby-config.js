@@ -10,6 +10,7 @@ module.exports = {
     author: 'João Victor Ignacio'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
